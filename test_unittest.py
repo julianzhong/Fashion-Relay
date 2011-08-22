@@ -16,6 +16,12 @@ class TestTeamcityMessages(unittest.TestCase):
   def testAssert(self):
     self.assertTrue(False)
 
+  def testAssertEqualMsg(self):
+    self.assertIsNone(None, 'Error: testAssertEqualMsg')
+
+  def testAssertEqualMsg(self):
+    self.assertIsInstance("1", str, 'Error: testAssertEqualMsg')
+
 
   def testException(self):
     raise Exception("some exception")
