@@ -1,4 +1,4 @@
-from teamcity.unittestpy import TeamcityTestRunner
+#from teamcity.unittestpy import TeamcityTestRunner
 import unittest
 
 # sample of using teamcity
@@ -23,4 +23,5 @@ class TestTeamcityMessages(unittest.TestCase):
     raise Exception("some exception")
 
 if __name__ == '__main__':
-  unittest.main(testRunner=TeamcityTestRunner())
+  unittest.main()
+  #unittest.main(testRunner=TeamcityTestRunner())
