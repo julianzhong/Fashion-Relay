@@ -16,8 +16,6 @@ class TestTeamcityMessages(unittest.TestCase):
   def testAssert(self):
     self.assertTrue(False)
 
-  def testFail(self):
-    self.fail("Always fail")
 
   def testException(self):
     raise Exception("some exception")
