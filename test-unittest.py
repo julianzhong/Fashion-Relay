@@ -1,6 +1,7 @@
 from teamcity.unittestpy import TeamcityTestRunner
 import unittest
 
+# sample of using teamcity
 class TestTeamcityMessages(unittest.TestCase):
 
   def testPass(self):
@@ -16,7 +17,7 @@ class TestTeamcityMessages(unittest.TestCase):
     self.assertTrue(False)
 
   def testFail(self):
-    self.fail("SET it fail")
+    self.fail("Always fail")
 
   def testException(self):
     raise Exception("some exception")
